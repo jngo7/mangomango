@@ -1,0 +1,126 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, pink,#c56ff0);
+    padding: 0, !important ; 
+}
+
+.navbar li a
+{
+    color: #fff;
+} 
+
+.heroimage
+{
+    background-image: url("../images/gel drop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.skincare
+{
+    padding-top: 350px;
+    color: rgb(138, 0, 99);
+    font-weight: bold;
+}
+
+.lotionimage
+{
+    background-image: url("../images/lotion.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+.lotion
+{ 
+    padding-top: 150px;
+    color: #fff;
+}
+
+.oily
+{
+    height: 300px;
+}
+
+.oilyimage
+{
+    background-color: pink;
+}
+
+.oilydesc
+{
+    background-color: tan;
+}
+
+.overlay
+{
+    margin: 20px;
+    background-color: rgb(255, 255, 255, 0.4);
+    padding: 20px;
+    text-align: center;
+    z-index: 1;
+}
+
+.content 
+{
+    padding: 50px;
+    align-content: center;
+}
+
+.features-icons {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    color:rgb(138, 0, 99);
+
+  }
+  .features-icons .features-icons-item {
+    max-width: 20rem;
+  }
+  .features-icons .features-icons-item .features-icons-icon {
+    height: 7rem;
+  }
+  .features-icons .features-icons-item .features-icons-icon i {
+    font-size: 4.5rem;
+  }
+
+  .showcase .showcase-text {
+    padding: 3rem;
+  }
+  .showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+  }
+  @media (min-width: 768px) {
+    .showcase .showcase-text {
+      padding: 7rem;
+    }
+  }
+
+.footer.footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    place-content: center;
+    background-color: #d7aced;
+  }
+
+footer {
+    background-color: #d7aced;
+}
