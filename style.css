@@ -27,7 +27,7 @@ body
 
 .heroimage
 {
-    background-image: url("../images/geldrop.png");
+    background-image: url("images/geldrop.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 500px;
@@ -42,7 +42,7 @@ body
 
 .lotionimage
 {
-    background-image: url("../images/lotion.jpg");
+    background-image: url("images/lotion.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
